@@ -1,38 +1,37 @@
-.your_name {
-	background: #4aaaa5;
-	width: 100px;
-	text-align: center;
-	size: 56px;
-	padding: 20%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: white;	
-}
-
-
-.body_container {
-	background: #cccccc;
-}
-
-.content_countainer {
+.header {
+	background-color: red;
 	width: 960px;
-	background: white;
+}
+
+.your_name {
+	background-color: #4aaaa5;
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 100px;
+	margin-right: 300px;
+	color: white;
+}
+
+.countainer {
+	width: 960px;
 }
 
 .top_of_page_controls {
 	float: left;
-	width: 10%;
-	padding: 20px;
+	margin-left: 10px;
 }
 
 .about_me {
 	clear: both;
 	float: left;
-	width: 10%;
-	padding: 100px;
 }
 
 .connect_with_me {
 	float: left;	
-	width: 20%;
-	padding: 100px;
+}
+
+
+.footer {
+	clear: both;
+	background-color: red;
 }
